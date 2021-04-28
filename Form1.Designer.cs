@@ -188,6 +188,7 @@ namespace telacadastro
             this.lista.Name = "lista";
             this.lista.Size = new System.Drawing.Size(775, 184);
             this.lista.TabIndex = 12;
+            this.lista.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lista_MouseDoubleClick);
             // 
             // pictureBox1
             // 
